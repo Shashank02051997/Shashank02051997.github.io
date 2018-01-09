@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <title>Lorenzo Greco - Mobile Applications Engineer, Developer and Designer</title>
+
+    <!-- Meta -->
+    <meta name="author" content="Lorenzo Greco">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="content-language" content="en">
+    <meta name="Description" content="I am primarily a software engineer with a background and passion for mobile technology. Mobile for me is not simply another avenue of the computing industry but it represents the future of what we will be interacting with.">
+    <meta name="Keywords" content="mobile, applications, developer, ios, android, software, engineer, android, lecce, salento,">
+    <meta name="robots" content="index,nofollow" />
+    <meta name="og:description" content="I am primarily a software engineer with a background and passion for mobile technology. Mobile for me is not simply another avenue of the computing industry but it represents the future of what we will be interacting with.">
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:site_name" content="Lorenzo Greco - Mobile Applications Engineer, Developer and Designer" />
+    <meta property="og:title" content="Lorenzo Greco - Mobile Applications Engineer, Developer and Designer" />
+    <meta property="og:image" content="assets/img/photos/profile-bg1.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://lorenzogreco.com/" />
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content=https://lorenzogreco.com/">
+    <meta name="twitter:title" content="Lorenzo Greco - Mobile Applications Engineer, Developer and Designer">
+    <meta name="twitter:description" content="I am primarily a software engineer with a background and passion for mobile technology. Mobile for me is not simply another avenue of the computing industry but it represents the future of what we will be interacting with.">
+    <meta name="twitter:creator" content="Lorenzo Greco">
+    <meta name="twitter:image" content="assets/img/photos/profile-bg1.jpg">
+
+    <!-- Schema.org markup for Google+ -->
+    <meta itemprop="name" content="Lorenzo Greco - Mobile Applications Engineer, Developer and Designer">
+    <meta itemprop="description" content="I am primarily a software engineer with a background and passion for mobile technology. Mobile for me is not simply another avenue of the computing industry but it represents the future of what we will be interacting with.">
+    <meta itemprop="image" content="assets/img/photos/profile-bg1.jpg">
+
+
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="assets/img/favicon.png.htm">
+    <link rel="apple-touch-icon" href="assets/img/favicon_60x60.png.htm">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicon_76x76.png.htm">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicon_120x120.png.htm">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicon_152x152.png.htm">
+
+    <!-- Google Web Fonts -->
+<!--     <link href="../fonts.googleapis.com/css-family=Catamaran-600,700.htm" rel="stylesheet"> -->
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- CSS Base -->
+    <link id="theme" rel="stylesheet" href="assets/css/themes/theme-orange.css" />
+
+</head>
+
+<body class="header-vertical" ng-controller="blogPageCtrl">
+
+<!-- Loader -->
+<div id="page-loader" class="bg-white">
+    <svg class="loader" width="32px" height="32px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><circle class="circle" fill="none" stroke-width="2" stroke-linecap="round" cx="16" cy="16" r="14"></circle></svg>
+    <span class="loading-txt text-muted">Loading...</span>
+</div>
+<!-- Loader / End -->
+
+<!-- Header -->
+<header id="header">
+
+    <!-- Owner -->
+    <a href="index.html#home" class="owner">
+        <img src="assets/img/photos/profile-photo.jpg" alt="" class="image">
+        <div class="content">
+            <h2 class="name">Lorenzo Greco</h2>
+            <h2 class="caption text-muted">Mobile Engineer</h2>
+        </div>
+    </a>
+
+    <!-- Navigation -->
+    <nav id="main-menu">
+        <div class="nav-wrapper">
+            <ul class="nav nav-primary">
+                <a href="index.html#home"><li><i class="li-home"></i>Start</li></a>
+                <a href="index.html#about"><li><i class="li-feedback"></i>About me</li></a>
+                <a href="index.html#cases"><li><i class="li-imac"></i>Cases</li></a>
+                <a href="index.html#latest-posts"><li><i class="li-pen"></i>Latest posts</li></a>
+                <a href="index.html#contact"><li><i class="li-email"></i>Contact</li></a>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Bottom -->
+    <div class="bottom">
+
+        <ul class="list-inline mb-10">
+            <li class="list-inline-item"><a href="javascript:if(confirm('https://www.facebook.com/lorenzo.greco.319\n\nThis file was not retrieved because it was filtered out by your project settings.\n\nWould you like to open it from the server?'))window.location='https://www.facebook.com/lorenzo.greco.319'" target="_blank" class="icon icon-circle icon-hover icon-secondary icon-sm"><i class="ti-facebook"></i></a></li>
+            <li class="list-inline-item"><a href="javascript:if(confirm('https://www.linkedin.com/in/lorenzo-greco-61118195/\n\nThis file was not retrieved because it was filtered out by your project settings.\n\nWould you like to open it from the server?'))window.location='https://www.linkedin.com/in/lorenzo-greco-61118195/'"  target="_blank" class="icon icon-circle icon-hover icon-secondary icon-sm"><i class="ti-linkedin"></i></a></li>
+            <li class="list-inline-item"><a href="javascript:if(confirm('https://www.instagram.com/lorenzogr90\n\nThis file was not retrieved because it was filtered out by your project settings.\n\nWould you like to open it from the server?'))window.location='https://www.instagram.com/lorenzogr90'"  target="_blank" class="icon icon-circle icon-hover icon-secondary icon-sm"><i class="ti-instagram"></i></a></li>
+        </ul>
+        <!--<div class="module-group mt-20 mb-10">-->
+        <!--<div class="module">-->
+        <!--<span class="text-muted mr-5">Language:</span>-->
+        <!--<ul class="nav-footer">-->
+        <!--<li class="active"><a href="index.htm#">English</a></li>-->
+        <!--<li><a href="index.htm#">Italian</a></li>-->
+        <!--</ul>-->
+        <!--</div>-->
+        <!--</div>-->
+        <span class="text-muted">P. IVA: 04682970753</span><br>
+        <span class="text-muted"><script>document.write(new Date().getFullYear())</script>©.</span>
+    </div>
+
+</header>
+<!-- Header / End -->
+
+<!-- Content -->
+<div id="content">
+
+    <!-- Page Title -->
+    <div class="page-title pb-0">
+        <div class="container-fluid container-custom">
+            <h1>Blog</h1>
+            <p class="lead text-muted">Interesting tech articles from the web</p>
+        </div>
+    </div>
+
+    <!-- Section / Blog -->
+    <section id="blog" class="section">
+
+        <div class="container-fluid container-custom clearfix">
+            <div ng-repeat="item in posts" ng-if="$index % 3 == 0" class="row hidden-lg-down">
+                <!-- Post - Item -->
+                <div class="pr-15 pl-15 col-lg-4 col-md-6 col-sm-12">
+                    <article class="post item" ng-show="$index< posts.length">
+                        <div class="post-image">
+                            <div class="image-cropped"  ng-style="{'background-image': 'url({{posts[$index].image}}), url(assets/img/placeholder.jpg)'}"></div>
+                            <!--<img ng-src="{{post.image}}" alt=" " onerror="this.src='assets/img/photos/coach_bg02.jpg';">-->
+                        </div>
+                        <div class="post-content">
+                            <span class="date text-muted">{{posts[$index].date}}</span>
+                            <h4><a  target="_blank" href="{{posts[$index].url}}.htm">{{posts[$index].title}}</a></h4>
+                            <p>{{posts[$index].description}}</p>
+                            <a  target="_blank" href="{{posts[$index].url}}.htm" class="btn btn-submit btn-sm width-100">Read more</a>
+                        </div>
+                        <ul class="post-meta">
+                            <li><i class="ti-pencil"></i>{{posts[$index].author}}</li>
+                        </ul>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 pr-15 pl-15">
+                    <!-- Post - Item -->
+                    <article class="post item" ng-show="$index +1 < posts.length">
+                        <div class="post-image">
+                            <div class="image-cropped"  ng-style="{'background-image': 'url({{posts[$index+1].image}}), url(assets/img/placeholder.jpg)'}"></div>
+                            <!--<img ng-src="{{post.image}}" alt=" " onerror="this.src='assets/img/photos/coach_bg02.jpg';">-->
+                        </div>
+                        <div class="post-content">
+                            <span class="date text-muted">{{posts[$index+1].date}}</span>
+                            <h4><a  target="_blank" href="{{posts[$index +1].url}}.htm">{{posts[$index+1].title}}</a></h4>
+                            <p>{{posts[$index+1].description}}</p>
+                            <a  target="_blank" href="{{posts[$index +1].url}}.htm" class="btn btn-submit btn-sm width-100">Read more</a>
+                        </div>
+                        <ul class="post-meta">
+                            <li><i class="ti-pencil"></i>{{posts[$index+1].author}}</li>
+                        </ul>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 pr-15 pl-15">
+                    <!-- Post - Item -->
+                    <article class="post item " ng-show="$index +2 < posts.length">
+                        <div class="post-image">
+                            <div class="image-cropped"  ng-style="{'background-image': 'url({{posts[$index+2].image}}), url(assets/img/placeholder.jpg)'}"></div>
+                            <!--<img ng-src="{{post.image}}" alt=" " onerror="this.src='assets/img/photos/coach_bg02.jpg';">-->
+                        </div>
+                        <div class="post-content">
+                            <span class="date text-muted">{{posts[$index+2].date}}</span>
+                            <h4><a  target="_blank" href="{{posts[$index +2].url}}.htm">{{posts[$index+2].title}}</a></h4>
+                            <p>{{posts[$index+2].description}}</p>
+                            <a  target="_blank" href="{{posts[$index +2].url}}.htm" class="btn btn-submit btn-sm width-100">Read more</a>
+                        </div>
+                        <ul class="post-meta">
+                            <li><i class="ti-pencil"></i>{{posts[$index+2].author}}</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+
+            <div ng-repeat="item in posts" ng-if="$index % 2 == 0" class="row hidden-lg-up" ng-show="$index < posts.length">
+                <!-- Post - Item -->
+                <div class="pr-15 pl-15 col-lg-4 col-md-6 col-sm-12">
+                    <article class="post item" ng-show="$index < posts.length">
+                        <div class="post-image">
+                            <div class="image-cropped"  ng-style="{'background-image': 'url({{posts[$index].image}}), url(assets/img/placeholder.jpg)'}"></div>
+                            <!--<img ng-src="{{post.image}}" alt=" " onerror="this.src='assets/img/photos/coach_bg02.jpg';">-->
+                        </div>
+                        <div class="post-content">
+                            <span class="date text-muted">{{posts[$index].date}}</span>
+                            <h4><a  target="_blank" href="{{posts[$index].url}}.htm">{{posts[$index].title}}</a></h4>
+                            <p>{{posts[$index].description}}</p>
+                            <a  target="_blank" href="{{posts[$index].url}}.htm" class="btn btn-submit btn-sm width-100">Read more</a>
+                        </div>
+                        <ul class="post-meta">
+                            <li><i class="ti-pencil"></i>{{posts[$index].author}}</li>
+                        </ul>
+                    </article>
+                </div>
+                <div class="pr-15 pl-15 col-lg-4 col-md-6 col-sm-12">
+                    <!-- Post - Item -->
+                    <article class="post item" ng-show="$index +1 < posts.length">
+                        <div class="post-image">
+                            <div class="image-cropped"  ng-style="{'background-image': 'url({{posts[$index +1].image}}), url(assets/img/placeholder.jpg)'}"></div>
+                            <!--<img ng-src="{{post.image}}" alt=" " onerror="this.src='assets/img/photos/coach_bg02.jpg';">-->
+                        </div>
+                        <div class="post-content">
+                            <span class="date text-muted">{{posts[$index +1].date}}</span>
+                            <h4><a  target="_blank" href="{{posts[$index +1].url}}.htm">{{posts[$index +1].title}}</a></h4>
+                            <p>{{posts[$index +1].description}}</p>
+                            <a  target="_blank" href="{{posts[$index +1].url}}.htm" class="btn btn-submit btn-sm width-100">Read more</a>
+                        </div>
+                        <ul class="post-meta">
+                            <li><i class="ti-pencil"></i>{{posts[$index +1].author}}</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+            <!-- Pagination -->
+            <nav aria-label="Page navigation" id="paginator" ></nav>
+        </div>
+
+    </section>
+
+</div>
+<!-- Content / End -->
+
+<!-- Mobile Navigation Toggle -->
+<div id="mobile-nav-toggle"><span></span><span></span><span></span></div>
+
+<!-- JS Libraries -->
+<script src="assets/js/jquery-2.2.4.min.js"></script>
+
+<!-- JS Plugins -->
+<script src="assets/js/plugins.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="assets/js/my-paginator.js"></script>
+
+<!-- AngularJS -->
+<!-- AngularJS -->
+<script src="assets/js/angular.min.js"></script>
+
+<!-- Firebase -->
+<script src="assets/js/firebase.js"></script>
+
+<!-- AngularFire -->
+<script src="assets/js/angularfire.min.js"></script>
+<!-- JS Core -->
+<script src='assets/js/main.js'></script>
+<script src="assets/js/core.js"></script>
+<script type="text/javascript" src="assets/js/moment-with-locales.js"></script>
+
+
+
+
+
+<!-- AngularJS -->
+
+
+</body>
+
+</html>
